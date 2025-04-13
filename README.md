@@ -5,9 +5,12 @@ This project is a basic registration form created using HTML and CSS. It allows 
 # Features
 User-friendly design: A clean and minimalistic layout for easy use.
 
-Input fields: Includes fields like name, email, password, and a submit button.
-
-Responsive: The form is styled to look great on both desktop and mobile screens.
+# Input fields: 
+Includes fields like; 
+- Name,
+- Email
+- Date of Birth
+- submit button.
 
 # Technologies Used
 HTML: Used to create the structure of the registration form.
@@ -20,7 +23,6 @@ To use this registration form, follow these steps:
 Clone this repository to your local machine:
 
 ``` bash
-Copy
 Edit
 git clone <repository_url>
 ```
@@ -34,11 +36,11 @@ Submit the form by clicking the "Submit" button.
 The form data can then be processed on the backend (this part is not included in this project).
 
 Example Form Fields
-Name
+- Name
 
-Address
+- Address
 
-Date of Birth
+- Date of Birth
 
 # Customization
 You can easily customize the form by modifying the following:
