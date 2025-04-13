@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css">
+    <title>Accessible Form</title>
+</head>
+<body>
+    <header>
+        <h1>Registration Form</h1>
+        <p>Please Fill Out This Form As best You Can</p>
+    </header>
+    
+    <form action="" method="POST">
+        <fieldset>
+            <label for="name">Name: <input type="text" id="name" name="form-name" class="text" required/></label>
+            <label for="email">Email: <input type="email" pattern="[a-z0-5]{8,}" id="email"name="form-email" class="text"  required/></label>
+            <label for="dob">Date of Birth: <input type="date" id="dob" name="form-dob" class="text" /></label>
+
+        </fieldset>
+        <fieldset>
+            <section class="questions">
+              <legend>What would You use this account for?</legend>
+              <label for="acc-info"><input type="radio" id="acc-info" name="acc-info" class="inline" checked> Business</label>
+              <label for="acc-info"><input type="radio" id="acc-info" name="acc-info" class="inline" > School</label>
+              <label for="acc-info" ><input type="radio" id="acc-info" name="acc-info" class="inline" > Personal</label>
+            </section>
+            <section class="questions">
+                <label for="dropdown">How did you hear about us?
+                    <select id="dropdown" name="drop">
+                        <option value="">Select an option</option>
+                        <option value="1">Social media</option>
+                        <option value="2">LinkedIn</option>
+                        <option value="3">From a friend</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+            </section>
+        </fieldset>
+        <fieldset>
+            <label for="bio">Tell us more About you in your own words
+                <textarea rows="5" cols="25" id="bio" name="bio"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+    
+</body>
+</html>
